@@ -1,8 +1,10 @@
-package android.example.jfrog.org.gradle_android_example;
-
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 /**
  * Example local unit test, which will execute on the development machine (host).
